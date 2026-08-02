@@ -14,6 +14,7 @@ const LOGO_SRC = "assets/titre-cavoe.png";
 
 const NAV_LINKS = [
     { href: "index.html",      label: "Accueil" },
+    { href: "evennements.html", label: "Evénements" },
     { href: "reglement.html", label: "Règlement" },
 ];
 
@@ -30,7 +31,7 @@ function buildHeader() {
     return `
     <header class="site-header">
       <nav class="nav wrap" aria-label="Navigation principale">
-        <a class="brand" href="index.html" aria-label="${SITE_NAME} — accueil">
+        <a class="brand" href="../index.html" aria-label="${SITE_NAME} — accueil">
           <img src="${LOGO_SRC}" alt="Cavoe">
         </a>
         <button class="nav__toggle" aria-expanded="false" aria-controls="menu">☰ Menu</button>
@@ -62,7 +63,7 @@ function buildFooter() {
         </div>
       </div>
       <div class="wrap footer__bottom">
-        <p>© ${year} ${SITE_NAME} — <a href="mentions-legales.html">Mentions légales</a></p>
+        <p>© ${year} ${SITE_NAME} — <a href="../mentions-legales.html">Mentions légales</a></p>
         <p>Association loi 1901 — RNA n° W441007735</p>
         <p>L'abus d'alcool est dangereux pour la santé, à consommer avec modération</p>
       </div>

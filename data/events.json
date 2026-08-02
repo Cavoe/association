@@ -1,0 +1,82 @@
+[
+  {
+    "id": "expo-accessoires-2025",
+    "tag": "Exposition",
+    "title": "Exposition d'accessoires d'œnophiles",
+    "start": "2025-05-02",
+    "end": "2025-05-11",
+    "time": "10 h 30 – 19 h 30",
+    "location": "Halte nautique d'Ancenis-Saint-Géréon (Loire-Atlantique)",
+    "description": "Exposition d'accessoires d'œnophiles, accompagnée d'un escape game autour du vin.",
+    "access": "Entrée gratuite",
+    "audience": "Ouvert aux non-adhérents",
+    "link": "",
+    "linkLabel": ""
+  },
+  {
+    "id": "presse-ouest-france-2025",
+    "tag": "Presse",
+    "title": "« Une surprenante collection d'objets autour du vin est exposée à Ancenis »",
+    "start": "2025-05-01",
+    "time": "15 h",
+    "location": "",
+    "description": "Article publié par Ouest-France à l'occasion de l'exposition d'accessoires d'œnophiles.",
+    "access": "",
+    "audience": "",
+    "link": "https://www.ouest-france.fr/pays-de-la-loire/ancenis-saint-gereon-44150/une-surprenante-collection-dobjets-autour-du-vin-est-exposee-a-ancenis-33b4f68e-2508-11f0-8bd9-2e665ca4169a",
+    "linkLabel": "Lire l'article sur Ouest-France"
+  },
+  {
+    "id": "soiree-vigneron-2025",
+    "tag": "Soirée",
+    "title": "Soirée vigneron",
+    "start": "2025-05-12",
+    "time": "",
+    "location": "Halte nautique d'Ancenis-Saint-Géréon (Loire-Atlantique)",
+    "description": "Présentation de l'exposition et apéritif « 100 (sans) vin ». Une soirée dédiée aux professionnels du vin de la région pour échanger et découvrir les cépages de France (hors vins de Loire).",
+    "access": "Entrée gratuite",
+    "audience": "Ouvert aux non-adhérents",
+    "link": "",
+    "linkLabel": ""
+
+  },
+  {
+    "id": "rdv-beaujolais-2025",
+    "tag": "Rdv du vin(gt)",
+    "title": "Dégustation découverte : les beaujolais",
+    "start": "2025-11-20",
+    "time": "20 h",
+    "location": "",
+    "description": "À l'occasion de l'ouverture de la saison des beaujolais nouveaux, une dégustation découverte sur le thème des beaujolais.",
+    "access": "Réservé aux adhérents (adhésion 20 €)",
+    "audience": "",
+    "link": "",
+    "linkLabel": ""
+  },
+  {
+    "id": "rdv-effervescents-2026",
+    "tag": "Rdv du vin(gt)",
+    "title": "Dégustation découverte : les vins effervescents",
+    "start": "2026-01-22",
+    "time": "20 h",
+    "location": "",
+    "description": "Une dégustation découverte sur le thème des vins effervescents.",
+    "access": "Réservé aux adhérents (adhésion 20 €)",
+    "audience": "",
+    "link": "",
+    "linkLabel": ""
+  },
+  {
+    "id": "assemblee-generale-2026",
+    "tag": "Assemblée générale",
+    "title": "Assemblée générale",
+    "start": "2026-06-20",
+    "time": "10 h – 19 h",
+    "location": "",
+    "description": "Bilan de l'année, dégustation verticale de Malvoisie, repas accord mets et vins et échange convivial.",
+    "access": "Réservé aux adhérents (adhésion 20 €) et membres bienfaiteurs",
+    "audience": "",
+    "link": "",
+    "linkLabel": ""
+  }
+]

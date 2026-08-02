@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda — CAVOE</title>
+    <meta name="description" content="TODO : Prochains événements de l'association.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="site-header"></div>
+
+<main>
+    <section class="page-head">
+        <div class="wrap">
+            <p class="crumbs"><a href="index.html">Accueil</a> › Evénnement</p>
+            <span class="eyebrow">Vie de l'association</span>
+            <h1>Actualités &amp; agenda</h1>
+            <p class="lead">Nos rendez-vous, dégustations et rencontres, à venir comme passés.</p>
+        </div>
+    </section>
+
+    <!-- Agenda : prochains événements (rempli depuis data/events.json) -->
+    <section class="section">
+        <div class="wrap">
+            <span class="eyebrow">À venir</span>
+            <h2>Prochains rendez-vous</h2>
+            <ul class="news" id="agenda-upcoming" style="margin-top:2rem;"></ul>
+        </div>
+    </section>
+
+    <!-- Événements passés (rempli depuis data/events.json) -->
+    <section class="section">
+        <div class="wrap">
+            <span class="eyebrow">Le journal</span>
+            <h2>Événements passés</h2>
+            <ul class="news" id="agenda-past" style="margin-top:2rem;"></ul>
+        </div>
+    </section>
+
+</main>
+
+<div id="site-footer"></div>
+<script src="scripts/script.js"></script>
+<script src="scripts/events.js"></script>
+</body>
+</html>

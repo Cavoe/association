@@ -81,7 +81,6 @@ img { max-width: 100%; height: auto; display: block; }
 .wrap { width: 100%; max-width: var(--maxw); margin-inline: auto; padding-inline: var(--gutter); }
 
 .section { padding-block: clamp(3rem, 0, 5.5rem); }
-.section--tint { background: var(--surface); border-block: 1px solid var(--line); }
 
 /* Étiquette « eyebrow » — porte le motif tricolore des trois vins */
 .eyebrow {
@@ -251,6 +250,15 @@ img { max-width: 100%; height: auto; display: block; }
 }
 .news__date { font-family: var(--font-display); font-weight: 700; color: var(--wine); }
 .news__item h3 { margin: 0 0 .35rem; }
+.event-time { display: block; margin-top: .2rem; font-family: var(--font-ui); font-size: .82rem; font-weight: 500; color: var(--ink-soft); }
+.event-meta { font-family: var(--font-ui); font-size: .82rem; color: var(--ink-soft); margin: .4rem 0 0; }
+.tag {
+    display: inline-block;
+    font-family: var(--font-ui); font-size: .66rem; font-weight: 700;
+    letter-spacing: .12em; text-transform: uppercase;
+    color: var(--wine); background: #f6ecec;
+    border-radius: 3px; padding: .22rem .55rem; margin-bottom: .55rem;
+}
 
 /* -------------------------------------------------------------------------
    Formulaires
