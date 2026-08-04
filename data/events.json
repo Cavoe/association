@@ -38,7 +38,19 @@
     "audience": "Ouvert aux non-adhérents",
     "link": "",
     "linkLabel": ""
-
+  },
+  {
+    "id": "creation-cravate-3d",
+    "tag": "Autre",
+    "title": "Création et impression de la première cravate 3D",
+    "start": "2025-05-12",
+    "time": "",
+    "location": "Ancenis-Saint-Géréon (Loire-Atlantique)",
+    "description": "Pour marquer le lancement de l'association Cavoe, Maître Cavoe, à l'aide d'un ami à créé la première cravate articulée et imprimé en 3D. Pour faire honneur aux cépages locaux, la cravate arborre les 3 couleurs des coteaux d'Ancenis : le rouge, le blanc et le rosé !",
+    "access": "",
+    "audience": "",
+    "link": "",
+    "linkLabel": ""
   },
   {
     "id": "rdv-beaujolais-2025",
