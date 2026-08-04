@@ -149,17 +149,6 @@ img { max-width: 100%; height: auto; display: block; }
 .card h3 { margin-top: .25rem; }
 .card p:last-child { margin-bottom: 0; }
 
-/* Marqueur d'aide « à compléter » */
-.todo {
-    display: inline-block;
-    font-family: var(--font-ui);
-    font-size: .72rem; font-weight: 600; letter-spacing: .04em;
-    color: var(--wine);
-    background: #f6e7e4;
-    border: 1px dashed var(--rose);
-    border-radius: 4px; padding: .15rem .55rem;
-}
-
 /* -------------------------------------------------------------------------
    En-tête / navigation
    ------------------------------------------------------------------------- */
