@@ -80,7 +80,9 @@ img { max-width: 100%; height: auto; display: block; }
    ------------------------------------------------------------------------- */
 .wrap { width: 100%; max-width: var(--maxw); margin-inline: auto; padding-inline: var(--gutter); }
 
-.section { padding-block: clamp(3rem, 0, 5.5rem); }
+.section, .hero {
+    margin-bottom: .9rem;
+}
 
 /* Étiquette « eyebrow » — porte le motif tricolore des trois vins */
 .eyebrow {
@@ -92,6 +94,7 @@ img { max-width: 100%; height: auto; display: block; }
     text-transform: uppercase;
     color: var(--taupe);
     margin-bottom: .9rem;
+    margin-top: 1.5em;
 }
 .eyebrow::before {
     content: "";
