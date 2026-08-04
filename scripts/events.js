@@ -78,7 +78,7 @@ async function loadEvents() {
     if (upEl) {
         upEl.innerHTML = upcoming.length
             ? upcoming.map(eventCard).join("")
-            : `<li class="news__item"><div><p>Aucun rendez-vous programmé pour l'instant</p></div></li>`;
+            : `<li><div><p class="justified" style="font-style: oblique">Aucun rendez-vous programmé pour l'instant</p></div></li>`;
     }
     if (pastEl) {
         pastEl.innerHTML = past.length
