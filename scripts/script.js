@@ -14,7 +14,7 @@ const LOGO_SRC = "assets/titre-cavoe.png";
 
 const NAV_LINKS = [
     { href: "index.html",      label: "Accueil" },
-    { href: "evennements.html", label: "Evénements" },
+    { href: "evenements.html", label: "Événements" },
     { href: "reglement.html", label: "Règlement" },
 ];
 

@@ -46,7 +46,7 @@
     "start": "2025-05-12",
     "time": "",
     "location": "Ancenis-Saint-Géréon (Loire-Atlantique)",
-    "description": "Pour marquer le lancement de l'association Cavoe, Maître Cavoe, à l'aide d'un ami à créé la première cravate articulée et imprimé en 3D. Pour faire honneur aux cépages locaux, la cravate arborre les 3 couleurs des coteaux d'Ancenis : le rouge, le blanc et le rosé !",
+    "description": "Pour marquer le lancement de l'association Cavoe, Maître Cavoe, à l'aide d'un ami a créé la première cravate articulée et imprimée en 3D. Pour faire honneur aux cépages locaux, la cravate arbore les 3 couleurs des côteaux d'Ancenis : le rouge, le blanc et le rosé !",
     "access": "",
     "audience": "",
     "link": "",
@@ -55,12 +55,12 @@
   {
     "id": "rdv-beaujolais-2025",
     "tag": "Rdv du vin(gt)",
-    "title": "Dégustation découverte : les beaujolais",
+    "title": "Dégustation découverte : les beaujolais",
     "start": "2025-11-20",
     "time": "20 h",
     "location": "",
     "description": "À l'occasion de l'ouverture de la saison des beaujolais nouveaux, une dégustation découverte sur le thème des beaujolais.",
-    "access": "Réservé aux adhérents (adhésion 20 €)",
+    "access": "Réservé aux adhérents",
     "audience": "",
     "link": "",
     "linkLabel": ""
@@ -68,12 +68,12 @@
   {
     "id": "rdv-effervescents-2026",
     "tag": "Rdv du vin(gt)",
-    "title": "Dégustation découverte : les vins effervescents",
+    "title": "Dégustation découverte : les vins effervescents",
     "start": "2026-01-22",
     "time": "20 h",
     "location": "",
     "description": "Une dégustation découverte sur le thème des vins effervescents.",
-    "access": "Réservé aux adhérents (adhésion 20 €)",
+    "access": "Réservé aux adhérents",
     "audience": "",
     "link": "",
     "linkLabel": ""
@@ -86,7 +86,7 @@
     "time": "10 h – 19 h",
     "location": "",
     "description": "Bilan de l'année, dégustation verticale de Malvoisie, repas accord mets et vins et échange convivial.",
-    "access": "Réservé aux adhérents (adhésion 20 €) et membres bienfaiteurs",
+    "access": "Réservé aux adhérents et membres bienfaiteurs",
     "audience": "",
     "link": "",
     "linkLabel": ""

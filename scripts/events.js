@@ -35,14 +35,14 @@ function eventCard(ev) {
     <li class="news__item">
       <div class="news__date">
         ${dateLabel}
-        ${ev.time ? `<span class="event-time">${ev.time}</span>` : ""}
+        ${ev.time ? `<span class="event-time">${ev.time}</span>` : ""}
       </div>
       <div>
-        ${ev.tag ? `<span class="tag">${ev.tag}</span>` : ""}
+        ${ev.tag ? `<span class="tag">${ev.tag}</span>` : ""}
         <h3>${ev.title}</h3>
-        ${ev.description ? `<p>${ev.description}</p>` : ""}
-        ${meta ? `<p class="event-meta">${meta}</p>` : ""}
-        ${ev.link ? `<p class="event-link"><a href="${ev.link}" target="_blank" rel="noopener">${ev.linkLabel || "En savoir plus"} →</a></p>` : ""}
+        ${ev.description ? `<p class="justified">${ev.description}</p>` : ""}
+        ${meta ? `<p class="event-meta justified">${meta}</p>` : ""}
+        ${ev.link ? `<p class="event-link"><a href="${ev.link}" target="_blank" rel="noopener">${ev.linkLabel || "En savoir plus"} →</a></p>` : ""}
       </div>
     </li>`;
 }
@@ -78,12 +78,12 @@ async function loadEvents() {
     if (upEl) {
         upEl.innerHTML = upcoming.length
             ? upcoming.map(eventCard).join("")
-            : `<li><div><p class="justified" style="font-style: oblique">Aucun rendez-vous programmé pour l'instant</p></div></li>`;
+            : `<li><div><p class="justified" style="font-style: oblique">Aucun rendez-vous programmé pour l'instant.</p></div></li>`;
     }
     if (pastEl) {
         pastEl.innerHTML = past.length
             ? past.map(eventCard).join("")
-            : `<li class="news__item"><div><p class="event-meta">Aucun événement passé pour le moment.</p></div></li>`;
+            : `<li><div><p class="event-meta justified">Aucun événement passé pour le moment.</p></div></li>`;
     }
     if (homeEl) {
         const latest = [...events].sort((a, b) => keyDate(b) - keyDate(a)).slice(0, 3);
