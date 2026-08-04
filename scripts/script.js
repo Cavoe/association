@@ -31,7 +31,7 @@ function buildHeader() {
     return `
     <header class="site-header">
       <nav class="nav wrap" aria-label="Navigation principale">
-        <a class="brand" href="../index.html" aria-label="${SITE_NAME} — accueil">
+        <a class="brand" href="index.html" aria-label="${SITE_NAME} — accueil">
           <img src="${LOGO_SRC}" alt="Cavoe">
         </a>
         <button class="nav__toggle" aria-expanded="false" aria-controls="menu">☰ Menu</button>
